@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+
+    <com.fr.android.bi.parameter.ui.widget.core.CoreRangeSeekBar
+      android:id="@+id/fr_bi_seek_bar"
+      android:layout_width="match_parent"
+      android:layout_height="150dp"
+      android:padding="40dp"/>
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp"
+      android:background="@color/fr_bi_light_gray"/>
+
+    <TextView
+      android:id="@+id/fr_bi_seek_bar_error_tip"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:visibility="gone"
+      android:gravity="center"
+      android:textSize="16sp"
+      android:textColor="#e85052"
+      android:background="#fdddde"/>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginLeft="10dp"
+          android:text="@string/fr_bi_start_number_value"
+          android:textSize="16sp"/>
+
+        <TextView
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_marginLeft="10dp"
+          android:text="@string/fr_bi_end_number_value"
+          android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal">
+
+        <EditText
+          android:id="@+id/fr_bi_seek_start_value"
+          style="@style/IFBIBaseEditText"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal"/>
+
+
+        <EditText
+          android:id="@+id/fr_bi_seek_end_value"
+          style="@style/IFBIBaseEditText"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:inputType="numberDecimal"/>
+
+    </LinearLayout>
+
+</LinearLayout>

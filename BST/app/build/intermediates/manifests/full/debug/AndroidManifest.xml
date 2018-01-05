@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bst"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+    <!-- OpenGLES 2.0 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入扩展存储，向扩展卡写入数据，用于写入离线定位数据 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 访问网络，网络定位需要上网 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="false"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    //获取设备网络状态，禁用后无法获取网络状态
+    <uses-permission android:name="android.permission.INTERNET" />
+    //网络权限，当禁用后，无法进行检索等相关业务
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    //读取设备硬件信息，统计数据
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    //读取系统信息，包含系统版本等信息，用作统计
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    //获取设备的网络状态，鉴权所需网络代理
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    //允许sd卡写权限，需写入地图数据，禁用后无法显示地图
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    //获取统计数据
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    //鉴权所需该权限获取进程列表
+    <uses-permission android:name="android.permission.CAMERA" />
+    //使用步行AR导航，配置Camera权限
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="ANDROID.PERMISSION.BIND_VPN_SERVICE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" /> <!-- 浮动通知权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:name="com.bst.Application"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="jnlWG5C05ArGW4i91i4lVUvdeKHmqw2c" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+        </service>
+
+        <activity
+            android:name="com.bst.ui.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.bst.ui.PersonalCentorActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bst.ui.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bst.ui.PersonAttendanceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bst.ui.AttendanceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bst.ui.AttendanceInfoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bst.ui.AttAddFaceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bst.ui.SelectAttdanceActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.bst.ui.ActivityPanel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.fr.android.bi.form.IFZoomActivity4BI"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.bi.form.IFFormActivity4BI"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" >
+            <intent-filter>
+                <action android:name="com.fr.android.intent.form.bi" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fr.android.bi.widget.BIViewImageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.bi.contents.IFBISortActivity"
+            android:screenOrientation="behind"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.report.IFReportActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:theme="@style/AppTheme.NoActionBar.NoAnimation"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.fr.android.intent.form.cpt" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fr.android.report.IFReportActivityWithPath"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:theme="@style/AppTheme.NoActionBar.NoAnimation"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.fr.android.intent.form.cpt_path" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fr.android.form.IFFormActivityWithPath"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:theme="@style/AppTheme.NoActionBar.NoAnimation"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.fr.android.intent.form.frm_path" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fr.android.report.IFWebViewActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.fr.android.intent.form.webview" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fr.android.report.IFGalleryActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.report.IFGalleryActivityHorizontal"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" /> <!-- frandroid 相关activity设置写入开始 -->
+        <activity
+            android:name="com.fr.android.parameter.ui.widget.core.IFTextScanActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.parameter.ui.widget.core.IFTextScanHorizontalActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.form.IFZoomActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.form.IFZoomTipActivity"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.login.IFLoginZY"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fr.android.form.IFFormActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
+            android:hardwareAccelerated="true"
+            android:theme="@style/AppTheme.NoActionBar.NoAnimation"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <action android:name="com.fr.android.intent.form.frm" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fr.android.ui.imageupload.IFImageSelectActivity"
+            android:theme="@style/IFTheme" />
+        <activity
+            android:name="com.fr.android.ui.imageupload.IFImageSelectActivity4Pad"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.fr.android.ui.imageupload.IFSelectChooseActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.ui.imageupload.IFSelectChooseActivity4Pad"
+            android:screenOrientation="sensorLandscape" />
+        <activity
+            android:name="com.fr.android.activity.LoadAppFromURLActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.fr.android.activity.LoadAppFromWelcomeActivity"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name="com.fr.android.app.push.IFBaiduReceiver" >
+            <intent-filter>
+
+                <!-- 接收push消息 -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <!-- 接收bind、setTags等method的返回结果 -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <!-- 接收通知点击事件，和通知自定义内容 -->
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver> <!-- 用于接收系统消息以保证PushService正常运行 -->
+        <receiver
+            android:name="com.baidu.android.pushservice.PushServiceReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.baidu.android.pushservice.action.notification.SHOW" />
+                <action android:name="com.baidu.android.pushservice.action.media.CLICK" />
+                <!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+                <action android:name="android.intent.action.MEDIA_MOUNTED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.baidu.android.pushservice.RegistrationReceiver"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.METHOD" />
+                <action android:name="com.baidu.android.pushservice.action.BIND_SYNC" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.baidu.android.pushservice.PushService"
+            android:exported="true"
+            android:process=":bdservice_v1" >
+            <intent-filter>
+                <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE" />
+            </intent-filter>
+        </service> <!-- 4.4版本新增的CommandService声明，提升小米和魅族手机上的实际推送到达率 -->
+        <service
+            android:name="com.baidu.android.pushservice.CommandService"
+            android:exported="true" /> <!-- **********************************************百度推送**********************************************配置结束 -->
+        <!-- **********************************************高德定位SDK**********************************************配置开始 -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="852f0dff4a11c02cbc0af65028c9be36" > <!-- 开发者申请的key -->
+        </meta-data> <!-- 定位需要的服务 -->
+        <service android:name="com.amap.api.location.APSService" />
+
+        <receiver
+            android:name="com.fr.android.script.IFLocationOnStartReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.fr.android.plugin.IFPluginOnStartReceiver" />
+            </intent-filter>
+        </receiver> <!-- **********************************************深信服VPN**********************************************配置开始 -->
+        <service
+            android:name="com.sangfor.ssl.l3vpn.service.EasyappSvpnService"
+            android:permission="android.permission.BIND_VPN_SERVICE" >
+            <intent-filter>
+                <action android:name="com.sangfor.ssl.l3vpn.service.EasyappSvpnService" />
+            </intent-filter>
+        </service> <!-- **********************************************深信服VPN**********************************************配置结束 -->
+        <receiver
+            android:name="com.fr.android.plugin.vpn.IFVPNOnStartReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.fr.android.plugin.IFPluginOnStartReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.fr.plugin.IFGisOnStartReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.fr.android.plugin.IFPluginOnStartReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.fr.android.platform.update.IFUpdateService" />
+
+        <activity android:name="com.fr.android.platform.launcher.IFChooseMain" />
+        <activity
+            android:name="com.fr.android.platform.launcher.IFAPPEntry"
+            android:screenOrientation="user"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.fr.android.intent.launch.app" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fr.android.platform.login.IFLoginZY4Pad"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name="com.fr.android.platform.share.IFShareActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppTheme.NoActionBar.NoAnimation" />
+        <activity
+            android:name="com.fr.android.platform.share.IFShareActivityHorizontal"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar.NoAnimation" />
+        <activity
+            android:name="com.fr.android.platform.settings.IFConfigActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.settings.IFConfigActivity4Pad"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.index.IFMainPage"
+            android:alwaysRetainTaskState="true"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.fr.android.platform.settings.offline.IFTempStoragePageActivity"
+            android:screenOrientation="sensorPortrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.fr.android.platform.settings.offline.IFTempStoragePagePadActivity"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name="com.fr.android.app.push.IFNotificationHandler"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.serverlist.IFServerPage4Pad"
+            android:configChanges="orientation|keyboardHidden"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.launcher.IFWelcome4Phone"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.launcher.IFWelcome4Pad"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.index.IFMainPage4Pad"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/IFTheme" />
+        <activity
+            android:name="com.fr.android.platform.serverlist.IFServerPage"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.fr.android.platform.login.IFLoginPage"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.serverlist.IFServerPageCustom"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.settings.device.IFDeviceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.settings.device.IFDeviceActivity4Pad"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.settings.IFAboutActivity4Pad"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.settings.IFAboutActivity4Phone"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.addserver.IFAddServer4Phone"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.addserver.IFAddServer4Pad"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.common.BugReportActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.settings.IFChangePasswordActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.settings.IFChangePasswordActivity4Pad"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.login.gesturelock.IFGestureLockActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.fr.android.platform.login.IFVPNPage"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.login.IFVPNPage4Pad"
+            android:screenOrientation="sensorLandscape"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.fr.android.platform.login.IFMaskActivity"
+            android:theme="@style/AppTheme.Translucent.NoActionBar" />
+        <activity
+            android:name="com.fr.android.platform.launcher.IFGuidePage"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- **********************************************信鸽推送**********************************************配置开始 -->
+        <receiver
+            android:name="com.tencent.android.tpush.XGPushReceiver"
+            android:process=":xg_service_v3" >
+            <intent-filter android:priority="0x7fffffff" > <!-- 【必须】 信鸽SDK的内部广播 -->
+                <action android:name="com.tencent.android.tpush.action.SDK" />
+                <action android:name="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE" />
+                <!-- 【必须】 系统广播：开屏和网络切换 -->
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <!-- 【可选】 一些常用的系统广播，增强信鸽service的复活机会，请根据需要选择。当然，你也可以添加APP自定义的一些广播让启动service -->
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED" />
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver> <!-- 【必须】 信鸽service -->
+        <service
+            android:name="com.tencent.android.tpush.service.XGPushServiceV3"
+            android:exported="true"
+            android:persistent="true"
+            android:process=":xg_service_v3" /> <!-- 【必须】 增强xg_service存活率 -->
+        <service
+            android:name="com.tencent.android.tpush.service.XGDaemonService"
+            android:process=":xg_service_v3" /> <!-- 【必须】 通知service，其中android:name部分要改为当前包名 -->
+        <service
+            android:name="com.tencent.android.tpush.rpc.XGRemoteService"
+            android:exported="true" >
+            <intent-filter> <!-- 【必须】 请修改为当前APP名包.PUSH_ACTION -->
+                <action android:name="com.bst.PUSH_ACTION" />
+            </intent-filter>
+        </service> <!-- 【可选】APP实现的Receiver，用于接收消息透传和操作结果的回调，请根据需要添加 -->
+        <!-- YOUR_PACKAGE_PATH.CustomPushReceiver需要改为自己的Receiver： -->
+        <receiver android:name="com.fr.android.app.push.IFXGReceiver" >
+            <intent-filter> <!-- 接收消息透传 -->
+                <action android:name="com.tencent.android.tpush.action.PUSH_MESSAGE" />
+                <!-- 监听注册、反注册、设置/删除标签、通知被点击等处理结果 -->
+                <action android:name="com.tencent.android.tpush.action.FEEDBACK" />
+                <!-- 接收push消息 -->
+                <action android:name="com.baidu.android.pushservice.action.MESSAGE" />
+                <!-- 接收bind、setTags等method的返回结果 -->
+                <action android:name="com.baidu.android.pushservice.action.RECEIVE" />
+                <!-- 接收通知点击事件，和通知自定义内容 -->
+                <action android:name="com.baidu.android.pushservice.action.notification.CLICK" />
+            </intent-filter>
+        </receiver> <!-- 【必须】 【注意】authorities修改为 包名.AUTH_XGPUSH, 如demo的包名为：com.qq.xgdemo -->
+        <provider
+            android:name="com.tencent.android.tpush.XGPushProvider"
+            android:authorities="com.bst.AUTH_XGPUSH"
+            android:exported="true" /> <!-- 【必须】 【注意】authorities修改为 包名.TPUSH_PROVIDER, 如demo的包名为：com.qq.xgdemo -->
+        <provider
+            android:name="com.tencent.android.tpush.SettingsContentProvider"
+            android:authorities="com.bst.TPUSH_PROVIDER"
+            android:exported="false" /> <!-- 【必须】 【注意】authorities修改为 包名.TENCENT.MID.V3, 如demo的包名为：com.qq.xgdemo -->
+        <provider
+            android:name="com.tencent.mid.api.MidProvider"
+            android:authorities="com.bst.TENCENT.MID.V3"
+            android:exported="true" >
+        </provider> <!-- 【必须】 请将YOUR_ACCESS_ID修改为APP的AccessId，“21”开头的10位数字，中间没空格 -->
+        <meta-data
+            android:name="XG_V2_ACCESS_ID"
+            android:value="2100084695" /> <!-- 【必须】 请将YOUR_ACCESS_KEY修改为APP的AccessKey，“A”开头的12位字符串，中间没空格 -->
+        <meta-data
+            android:name="XG_V2_ACCESS_KEY"
+            android:value="AF26FL1N5H7P" /> <!-- **********************************************信鸽推送**********************************************配置结束 -->
+        <!-- 监听系统启动事件，初始化XG插件 -->
+        <receiver
+            android:name="com.fr.android.app.push.IFXGPushOnStartReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.fr.android.plugin.IFPluginOnStartReceiver" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

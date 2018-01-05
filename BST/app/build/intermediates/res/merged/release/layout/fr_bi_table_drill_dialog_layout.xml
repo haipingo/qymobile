@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/transparent"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/fr_drill_up_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"
+        android:background="@drawable/fr_bi_alert_dialog_radius_corners_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fr_drill_up_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/fr_base_dark"
+            />
+
+        <TextView
+            android:id="@+id/fr_drill_up_item"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="16dp"
+            android:textColor="@color/fr_text_color_blue"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fr_drill_down_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/fr_bi_alert_dialog_radius_corners_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fr_title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/fr_base_dark"
+            />
+
+        <ListView
+            android:id="@+id/fr_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/fr_cancel_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fr_bi_alert_dialog_radius_corners_bg"
+        android:gravity="center"
+        android:text="@string/fr_cancel"
+        android:textColor="@color/fr_text_color_blue"
+        android:textSize="18sp"/>
+</LinearLayout>

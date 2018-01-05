@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-w720dp-v13\\values-w720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 76,
+                    "endOffset": 127
+                },
+                "from": {
+                    "file": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\values-w720dp\\values-w720dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 282,
+                        "endColumn": 76,
+                        "endOffset": 354
+                    }
+                }
+            }
+        ]
+    }
+]

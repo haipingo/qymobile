@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html style="width:100%; height:100%;" >
+<head lang="en">
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="android_servletURL?op=resource&resource=/com/fr/web/core/css/leaflet.css">
+
+</head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<body style="width:100%; height: 0; margin:0" onload="javascript:MyContent.loadOptions()">
+
+<div id='container' style="position:absolute;  right: 0; bottom: 0; left: 0; top: 0;"></div>
+<!-- MOBILE-718 对应底部标签显示不全. 对应tool提示右侧显示不全..>-->
+
+<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/web/core/js/d3.js"></script>
+<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/web/core/js/leaflet.js"></script>
+<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/web/core/js/vancharts-modern.js"></script>
+<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/web/core/js/VanChartWrapper.js"></script>
+<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/mobile/js/appChart.js"></script>
+<script type="text/javascript">
+
+    var vanCharts;
+
+    function show(options, index) {
+        changeChartOptions(options);
+        vanCharts = VanCharts.init(document.getElementById('container'));
+        vanCharts.setOptions(options);
+        MyContent.loadEnd();
+    }
+
+    function changeChartOptions(chartOptions) {
+         if(chartOptions && chartOptions.switchStyle) {// 多个图表时, 切换样式
+            var options = chartOptions.options;
+            for(var i = 0; i < options.length; i++) {
+                changeOptions(options[i]);
+            }
+         } else {
+            changeOptions(chartOptions);
+         }
+    }
+
+    function changeOptions(options) {
+        //MOBILE-7059 语言改为'zh'导致图表无法显示, 待和图表核实修改原因
+        if(options && options.language){
+            if(options.language === 'zh'){
+                options.language ='zh-CN'
+            }
+        }
+        if(options) {// 图表产品要求: 如果设置了 显示排序, 直接显示出来, 不用抽屉效果 其他情况均不显示工具栏.
+            var tools = options.tools;
+            if(tools) {
+                if(tools.enabled) {
+                    var sort = tools.sort;
+                    if(sort && sort.enabled) {// 判断是否设置 显示排序
+                        tools.hidden = false;
+                        if(tools.fullScreen) {
+                            tools.fullScreen.enabled = false;
+                        }
+                        if(tools.toImage) {
+                            tools.toImage.enabled = false;
+                        }
+                    } else {
+                        options.tools.enabled = false;
+                    }
+                } else {
+                    options.tools.enabled = false;
+                }
+            }
+            var plotOptions = options.plotOptions;
+            if(plotOptions && options.chartType != 'pie') {
+                var tooltip = plotOptions.tooltip;
+                if(tooltip && tooltip.enabled) {
+                    tooltip.shared = true;
+                }
+            }
+
+            if(options.plotOptions) {
+                options.plotOptions.click = function(event) {
+                    changeJSON(this);
+                };
+            }
+
+            if(options.dTools) {
+                options.dTools.click = function(dataPoint, event) {
+                    dToolsClick(dataPoint, event);
+                };
+            }
+        }
+    }
+
+    function dToolsClick(dataPoint, event) {
+        if(dataPoint) {
+            MyContent.doTClick("" + dataPoint.drillUpLink);
+        }
+    }
+
+    function changeJSON(point) {
+        if(point) {
+            MyContent.doHyper(point.seriesName, point.category, JSON.stringify(point.jsonHyperlink));// 系列名和分类名
+        }
+    }
+
+    function resize(options) {
+        if(vanCharts) {
+            changeOptions(options);
+            if(options && options.plotOptions) {
+                options.plotOptions.animation = false;
+
+                var tooltip = options.plotOptions.tooltip;
+                if(tooltip) {
+                    tooltip.animation = false;
+                }
+            }
+            vanCharts.setOptions(options);// 联动时, 刷新数据.
+            vanCharts.resize();
+        }
+    }
+
+    //   产品设计: 如果数据没有变化 不会有动画效果.
+    function refreshData(options) {
+        if (vanCharts) {
+            changeChartOptions(options);
+            vanCharts.setOptions(options); //  新图表换用setOptions接口. 或者setData 只加optioins参数
+        }
+    }
+
+    function refreshIndexData(options, index) {
+         if (vanCharts) {
+            changeChartOptions(options);
+            vanCharts.setData(options, index);
+        }
+    }
+
+    window.onresize = function(){ //MOBILE-1177 横屏切换后, 先初始化加载了图表, 再次切换到时, 大小需要重新适应. (后续 Widget创建, 加载数据, 添加分离也可以解决此问题.)
+        if(vanCharts) {
+            vanCharts.resize();
+        }
+    }
+
+</script>
+</body>
+</html>

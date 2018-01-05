@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/bar_color" >
+
+        <RelativeLayout
+            android:id="@+id/leftLayout"
+            android:layout_width="50dp"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/leftBackIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/abc_ic_ab_back_holo_light" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/rightTv"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:paddingLeft="4dp"
+            android:paddingRight="12dp"
+            android:text=""
+            android:textColor="@color/deep_gray"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

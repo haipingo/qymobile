@@ -1,0 +1,750 @@
+[
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_ui_toast.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3167045eef772e99638db5fd1890a3167517ebe1\\output\\res\\drawable\\fr_ui_toast.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_points_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_points_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_setting.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_icon_setting.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_pic_unselected.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_pic_unselected.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_corebutton_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\36f3170f8b4cb54f966c788c9609becd2c4a96e1\\output\\res\\drawable\\fr_corebutton_bg.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_map_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_map_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_bubble.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_bubble.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_detail.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_detail.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_complex.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_complex.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_area_stack_percent.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_area_stack_percent.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_undo_n.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_icon_undo_n.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_crosstable.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_crosstable.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_tri_axis.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_tri_axis.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_vertical_stack_percent.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_vertical_stack_percent.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_tree_widget.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_tree_widget.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_alert_dialog_radius_corners_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_alert_dialog_radius_corners_bg.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_filter_tree_label.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_filter_tree_label.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_gis_map.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\cbdbe332b33316274eb74d2d82b1baa58e00bcc5\\output\\res\\drawable\\fr_gis_map.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_setting_item_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_setting_item_shape.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_vpn_on.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_vpn_on.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_radar.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_radar.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_area_contrast.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_area_contrast.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_vertical_stack_percent_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_vertical_stack_percent_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_bubble_gravity_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_bubble_gravity_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_body_background.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_body_background.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_complex_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_complex_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_filter_value_seek_bar.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_filter_value_seek_bar.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_filter_range_seek_bar.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_filter_range_seek_bar.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_redo_n.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_icon_redo_n.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_title_menu_button_left_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_title_menu_button_left_background.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_tri_axis_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_tri_axis_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_meters.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_meters.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_gesture_lock_bg.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_gesture_lock_bg.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\white_shape.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\drawable\\white_shape.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_list_normal_background_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_list_normal_background_selector.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_state_attendancebtn.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\drawable\\home_state_attendancebtn.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_points.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_points.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_lines.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_lines.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_error_hint_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_error_hint_bg.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_bar_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_bar_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_communication_btn.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\drawable\\home_communication_btn.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\blue_round.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\drawable\\blue_round.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_save.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_save.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_editor_bg_blue.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_editor_bg_blue.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_bar.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_bar.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_page_next_gray.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_icon_page_next_gray.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_radar_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_radar_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_lines_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_lines_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_pad_item_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_pad_item_bg.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_refresh_failed.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\36f3170f8b4cb54f966c788c9609becd2c4a96e1\\output\\res\\drawable\\fr_refresh_failed.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_indicator_bg_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3167045eef772e99638db5fd1890a3167517ebe1\\output\\res\\drawable\\fr_indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_gis_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_gis_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_platform_update_decoration.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_platform_update_decoration.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_login_bg_title.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_login_bg_title.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_pic_dir.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_pic_dir.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_yes.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_yes.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_copy_note_btn.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\drawable\\home_copy_note_btn.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_redo_d.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_icon_redo_d.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_flow_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_flow_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_flow.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_flow.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_bar_contrast.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_bar_contrast.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_release_refresh.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3167045eef772e99638db5fd1890a3167517ebe1\\output\\res\\drawable\\fr_release_refresh.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_tree_label_text_unselected.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_tree_label_text_unselected.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_detail_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_detail_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_share_color_blue.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_share_color_blue.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_loading_close.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_loading_close.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_login_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_login_bg.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_area_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_area_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_refresh.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3167045eef772e99638db5fd1890a3167517ebe1\\output\\res\\drawable\\fr_refresh.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_vertical_contrast_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_vertical_contrast_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_grouptable.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_grouptable.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_vertical_contrast.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_vertical_contrast.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_task_management_btn.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\drawable\\home_task_management_btn.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_pie_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_pie_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\right_ico.png",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\drawable\\right_ico.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_indicator_bg_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3167045eef772e99638db5fd1890a3167517ebe1\\output\\res\\drawable\\fr_indicator_bg_top.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_dot_choose.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_dot_choose.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_uncheck_rect.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_icon_uncheck_rect.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_page_next.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_icon_page_next.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_widget_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_widget_bg.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_pie.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_pie.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_search_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_search_bg.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_index_background.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\36f3170f8b4cb54f966c788c9609becd2c4a96e1\\output\\res\\drawable\\fr_index_background.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_pic_selected.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_pic_selected.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_bar_contrast_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_bar_contrast_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_area_stack_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_area_stack_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_loading_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_loading_bg.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_share_color_purple.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_share_color_purple.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_radar_stack.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_radar_stack.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_vertical_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_vertical_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_share_color_red.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_share_color_red.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_vertical_stack.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_vertical_stack.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_platform_checkbox_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_platform_checkbox_selector.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_gis.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_gis.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_border_bg_focused.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_border_bg_focused.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_line_shadow.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3167045eef772e99638db5fd1890a3167517ebe1\\output\\res\\drawable\\fr_line_shadow.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_body_background_pad.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_body_background_pad.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\edittext_bg_selector.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\drawable\\edittext_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_editor_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3167045eef772e99638db5fd1890a3167517ebe1\\output\\res\\drawable\\fr_editor_bg.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_grouptable_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_grouptable_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_bubble_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_bubble_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_tree_label_text_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_tree_label_text_bg.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_number_keyboard_key.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_number_keyboard_key.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_link.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_icon_link.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\blue_shape.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\drawable\\blue_shape.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_circle.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_circle.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_check_rect.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_icon_check_rect.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_editor_bg_gray.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_editor_bg_gray.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_radar_stack_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_radar_stack_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_platform_collection_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_platform_collection_selector.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_pagedown.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_pagedown.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_page_last.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_icon_page_last.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_pic_empty.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_pic_empty.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_vertical_stack_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_vertical_stack_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_bubble_gravity.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_bubble_gravity.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_page.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_icon_page.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_share_color_blue_selected.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_share_color_blue_selected.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_key_pressed.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_key_pressed.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_progress_round.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_progress_round.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_crosstable_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_crosstable_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_tree_label_text_selected.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_tree_label_text_selected.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_meters_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_meters_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_unselected.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_unselected.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_gis_popup.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\cbdbe332b33316274eb74d2d82b1baa58e00bcc5\\output\\res\\drawable\\fr_gis_popup.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_pageup.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_pageup.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_platform_index_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_platform_index_selector.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_setting_list_item_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_setting_list_item_background.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_map.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_map.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_vpn_off.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_vpn_off.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_area_range.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_area_range.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_area_stack.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_area_stack.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_messge_dialog.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3167045eef772e99638db5fd1890a3167517ebe1\\output\\res\\drawable\\fr_messge_dialog.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_offline_submit_failed.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\36f3170f8b4cb54f966c788c9609becd2c4a96e1\\output\\res\\drawable\\fr_offline_submit_failed.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_vertical_line.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_vertical_line.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_platform_text_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_platform_text_selector.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_title_menu_button_right_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_title_menu_button_right_background.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_share_color_red_selected.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_share_color_red_selected.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_vertical.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_vertical.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_submit_failed_pad.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\36f3170f8b4cb54f966c788c9609becd2c4a96e1\\output\\res\\drawable\\fr_submit_failed_pad.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_area.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_area.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_circle_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_circle_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_dot_un.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_dot_un.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_edit_text_color_selector.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_edit_text_color_selector.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_area_range_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_area_range_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_gesture_lock_bg_pad.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_gesture_lock_bg_pad.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_area_stack_percent_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_area_stack_percent_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_add_server_background.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_add_server_background.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_bar_stack.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_bar_stack.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_refresh_click.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\36f3170f8b4cb54f966c788c9609becd2c4a96e1\\output\\res\\drawable\\fr_refresh_click.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_undo_d.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_icon_undo_d.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_pagedown_disable.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_pagedown_disable.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\home_personal_centor_btn.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\drawable\\home_personal_centor_btn.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_round_border_noback.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\36f3170f8b4cb54f966c788c9609becd2c4a96e1\\output\\res\\drawable\\fr_round_border_noback.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_pageup_disable.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_pageup_disable.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_share_color_purple_selected.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_share_color_purple_selected.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_selected.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_selected.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_cover_home.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_cover_home.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_icon_page_last_gray.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_icon_page_last_gray.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_refresh_success.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\36f3170f8b4cb54f966c788c9609becd2c4a96e1\\output\\res\\drawable\\fr_refresh_success.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_dot.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_dot.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_edit_text_shape.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_edit_text_shape.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_bar_stack_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_bar_stack_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_border_bg_normal.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_border_bg_normal.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_bi_area_contrast_h.png",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\drawable\\fr_bi_area_contrast_h.png"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\release\\drawable\\fr_editor_bg_ltgray.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\drawable\\fr_editor_bg_ltgray.xml"
+    }
+]

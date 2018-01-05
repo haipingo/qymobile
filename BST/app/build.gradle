@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+    dexOptions {
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+
+    defaultConfig {
+        applicationId "com.bst"
+        minSdkVersion 14
+        targetSdkVersion 14
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+repositories {
+    maven {
+        url uri("libs")    // 配置该模块的maven仓库地址
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.2.1'
+    compile 'com.google.code.gson:gson:2.2.4'
+
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile ('com.fr.android:bi-sdk:+', {// BI功能对应模块.
+
+        //  可能的冲突版本 需要排除
+//        exclude group: 'com.google.zxing',  module: 'core'
+//        exclude group: 'com.jiechic.library',  module: 'xUtils'
+ //   exclude group: 'com.android.support',  module: 'appcompat-v7'
+ //       exclude group: 'com.android.support',  module: 'recyclerview-v7'
+
+    })
+    compile('com.fr.android:report-sdk:+', {// 报表对应模块.
+
+        //  可能的冲突版本 需要排除
+//        exclude group: 'com.google.zxing',  module: 'core'
+//        exclude group: 'com.jiechic.library',  module: 'xUtils'
+ //      exclude group: 'com.android.support',  module: 'appcompat-v7'
+ //      exclude group: 'com.android.support',  module: 'recyclerview-v7'
+    })
+    // 根据需要加载对应的插件模块
+    compile 'com.fr.android:location:+'     // 定位插件，获取经纬度
+    compile 'com.fr.android:vpn:+'          // VPN插件，登录Sangfor VPN 服务器
+    compile 'com.fr.android:gis:+'          // GIS插件，显示GIS地图图表
+    compile 'com.fr.android:push-xg:+'      // 推送插件, 集成信鸽推送服
+    compile 'com.android.support:multidex:1.0.1'
+}

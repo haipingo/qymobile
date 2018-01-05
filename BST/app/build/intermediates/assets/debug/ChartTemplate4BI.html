@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html style="width:100%; height:100%;" >
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title></title>
+    <script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/mobile/js/appChart.js"></script>
+    <script type="text/javascript" src="android_servletURL?op=resource&resource=com/fr/bi/web/js/lib/vancharts-all.js"></script>
+    <script type="text/javascript" src="android_servletURL?op=emb&resource=mobile.js"></script>
+    <script type="text/javascript" src="android_servletURL?op=emb&resource=map.js&__pre__=true"></script>
+    <script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/third/leaflet.js"></script>
+    <link href="android_servletURL?op=resource&resource=/com/fr/bi/web/css/resource/third/leaflet.css" rel="stylesheet">
+    <script type="text/javascript">
+        FR.serverURL = document.location.href;
+        FR.servletURL = "";
+        window.onerror = function (err) {
+            //alert('window.onerror: ' + err);
+        };
+        window.onresize = function (e){
+            if(resize){
+              resize();
+            }
+        };
+    </script>
+
+
+</head>
+<body style="width:100%; height:100%; margin:0;" onload="javascript:MyContent.loadOptions()">
+
+<div id='container' style="position:absolute; width:98%; height:98%; top:0;bottom:0;left:0;right:0;margin: auto;"></div>
+
+<script type="text/javascript">
+
+    var vanCharts;
+
+    function show(options) {
+        options.plotOptions.click = function(event){
+            changeJSON(this);
+        };
+        vanCharts = VanCharts.init(document.getElementById('container'));
+        vanCharts.setOptions(options);
+        preventParentTouchInZoomBar();
+    }
+
+    function preventParentTouchInZoomBar(){
+        if(vanCharts && vanCharts.charts && vanCharts.charts.length > 0){
+            var zoom = vanCharts.charts[0].getComponent("zoom");
+            if(!zoom || !zoom.zoomBarGroup){
+               return;
+            }
+            var ele = zoom.zoomBarGroup.rawElement;
+            ele.addEventListener("touchstart", function(ev) {
+                MyContent.preventParentTouch();   // 通知WebView阻止祖先对其Touch事件的拦截
+            });
+
+        }
+    }
+
+
+    //xValue,zValue根据图表具体情况从不同字段获取获取
+    function changeJSON(point) {
+        if(point) {
+            MyContent.doHyper(JSON.stringify({
+            x:                  point.options.x,
+            z:                  point.seriesName,
+            value:              point.value,
+            seriesName:         point.seriesName,
+            category:           point.category,
+            longDateDescription:point.options.longDateDescription,
+            description:        point.options.description,
+            longDate:           point.options.longDate,
+            name:               point.name,
+            rect_tree_longDate: point.ancestor ? point.ancestor.options.longDate : "",
+            rect_tree_name:     point.ancestor ? point.ancestor.name : "",
+            names:              getNames(point),
+            mapNames:           getMapNames(point),
+            seriesLongDate:     point.series.options.longDate,
+            isSeriesAccumulated:point.series.isSeriesAccumulated(),
+            latLng:             getLatLng(point),
+            targetIds:          point.options.targetIDs}));
+        }
+    }
+
+    function getLatLng(point) {
+        var latLng = 0;
+        try{
+            latLng = point.getLatLng().reverse().join();
+        }catch(e) {
+        }
+        return latLng;
+    }
+
+    function getMapNames(point) {
+        var names = [];
+        try{
+            var layerIndex = point.series.vanchart.layerIndex;
+            var layerMap = point.series.vanchart.layerMap;
+            var parents = layerMap.slice(0, layerIndex);
+            for(var i=0;i<parents.length;i++) {
+                names.push(parents[i].drillUpDataPoint.name)
+            }
+            names.push(point.name);
+        } catch(e) {
+        }
+        return names;
+    }
+
+    function getNames(point) {
+        if (point.ancestor) {
+            var p = point, names = [];
+               while (p && p.level) {
+                    names.unshift(p.options.longDate || p.name);
+                    p = p.parent;
+               }
+               return names
+             }
+    }
+
+    function resize() {
+        if(vanCharts) {
+            vanCharts.resize();
+        }
+    }
+
+    function refreshData(options) {
+        if (vanCharts) {
+            options.plotOptions.click = function(event){
+                changeJSON(this);
+            };
+            vanCharts.setData(options);
+        }
+    }
+
+</script>
+</body>
+</html>

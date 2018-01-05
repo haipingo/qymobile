@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BugReportUtils">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/BugReportUtils.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="form_hint_text_color">#ffdddddd</color>
+    <color name="yin">#BCBBBB</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#353434</color>
+    <color name="green">#00ff00</color>
+    <color name="gray">#ECECEC</color>
+    <color name="more_gray">#D2D2D2</color>
+    <color name="more_deep_gray">#5E5E5E</color>
+    <color name="orange">#FFB200</color>
+    <color name="blue">#228cb3</color>
+    <color name="bar_blue">#18B4ED</color>
+    <color name="pres_blue">#4bc7f4</color>
+    <color name="red">#FF1014</color>
+    <color name="deep_gray">#A2A2A2</color>
+    <color name="little_gray">#F3F2F7</color>
+    <color name="watermelon_red">#F7675F</color>
+    <color name="title_line">#ffb2b2b2</color>
+    <color name="tab_color">#fff9f9f9</color>
+    <color name="bar_color">#FCFBFD</color>
+    <color name="normal_text_color">#ff353535</color>
+</resources>

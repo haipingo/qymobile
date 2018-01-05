@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/errorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/errorImage"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            />
+
+        <TextView
+            android:id="@+id/errorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="14sp"
+            android:textColor="#808080"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:id="@+id/detailInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fr_detailed_info"
+            android:paddingTop="10dp"
+            android:gravity="center_horizontal"
+            android:textColor="#007aff"
+            android:textSize="14sp"
+            android:paddingBottom="15dp"
+            />
+
+    </LinearLayout>
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/detailInfoScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/errorLayout"
+        >
+        <TextView
+            android:id="@+id/errorDetailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="#f4f4f4"
+            android:textColor="#808080"
+            android:textSize="11sp"
+            android:padding="5dp"
+            />
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

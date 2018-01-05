@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="5dp"
+        android:id="@+id/login_layout"
+        android:orientation="vertical"
+        android:background="@drawable/fr_login_bg">
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="45dp"
+                    android:id="@+id/relativeLayout"
+                    android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+                    android:background="@drawable/fr_login_bg_title">
+        <ImageView android:layout_width="35dp" android:layout_height="match_parent"
+                   android:id="@+id/fr_login_back"
+                   android:src="@drawable/fr_icon_leftblue_normal"
+                   android:paddingLeft="3dp"
+                   android:paddingTop="11dp"
+                   android:paddingBottom="10dp"
+                   android:layout_centerVertical="true"
+                   android:layout_alignParentLeft="true"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:id="@+id/server_msg"
+                  android:textSize="18dp"
+                  android:text="New Text"
+                  android:textColor="#3A454E"
+                  android:layout_marginLeft="15dp"
+                  android:layout_centerInParent="true"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="match_parent"
+                   android:id="@+id/server_edit"
+                   android:src="@drawable/fr_icon_edit_blue"
+                   android:paddingRight="10dp"
+                   android:paddingLeft="10dp"
+                   android:layout_centerVertical="true"
+                   android:layout_alignParentRight="true"/>
+        <ImageView android:layout_width="match_parent" android:layout_height="1dp"
+                   android:background="#cccccccc"
+                   android:padding="5dp"
+                   android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/linearLayout" android:layout_below="@+id/relativeLayout"
+                  android:layout_marginLeft="9dp" android:layout_marginRight="9dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="38dp"
+                      android:orientation="horizontal"
+                      android:id="@+id/linearLayoutName"
+                      android:background="@drawable/fr_button_name_password"
+                      android:layout_marginTop="109dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:src="@drawable/fr_icon_name_normal"
+                       android:layout_gravity="center_vertical"
+                       android:padding="8dp"/>
+            <EditText android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:id="@+id/login_username"
+                      android:textSize="17dp" android:hint="@string/fr_user_name"
+                      android:layout_gravity="center_vertical"
+                      android:background="#00000000" android:gravity="center_vertical"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="38dp"
+                      android:orientation="horizontal"
+                      android:id="@+id/linearLayoutPSD"
+                      android:background="@drawable/fr_button_name_password"
+                      android:layout_marginTop="14dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                       android:src="@drawable/fr_icon_password_normal"
+                       android:layout_gravity="center_vertical"
+                       android:padding="8dp"/>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:inputType="textPassword"
+                    android:id="@+id/login_password"
+                    android:textSize="17dp"
+                    android:hint="@string/fr_password"
+                    android:ems="10"
+                    android:layout_gravity="center_vertical"
+                    android:background="#00000000" android:gravity="center_vertical"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="32dp"
+                      android:gravity="bottom">
+            <com.fr.android.platform.ui.IFRectCheckbox
+                    android:layout_height="25dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/fr_login_save_password"
+                    />
+
+            <com.fr.android.platform.ui.IFRectCheckbox
+                    android:layout_height="25dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:id="@+id/fr_login_auto_login"
+                    />
+
+        </LinearLayout>
+
+        <TextView android:layout_width="match_parent" android:layout_height="38dp" android:text="@string/fr_login"
+                  android:id="@+id/login_submit" android:background="@drawable/fr_button_login_normal"
+                  android:gravity="center"
+                  android:textSize="18dp"
+                  android:textColor="#ffffff"
+                  android:layout_marginTop="14dp"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/fr_delete"
+            android:id="@+id/server_delete"
+            android:layout_alignParentBottom="true"
+            android:textColor="#ff3b30"
+            android:textSize="17dp"
+            android:gravity="center"
+            android:background="@drawable/fr_delete_server_background"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+</RelativeLayout>

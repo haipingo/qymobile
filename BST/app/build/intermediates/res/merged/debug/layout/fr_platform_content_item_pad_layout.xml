@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="90dp"
+  android:orientation="horizontal">
+    
+    <ImageView
+      android:id="@+id/fr_platform_cover_image"
+      android:layout_width="115dp"
+      android:layout_height="match_parent"
+      android:padding="6dp"
+      android:scaleType="fitXY" />
+    
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+        
+        <LinearLayout
+          android:id="@+id/fr_platform_checkbox_layout"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_alignParentRight="true"
+          android:padding="5dp"
+          android:gravity="top|end">
+            
+            <ImageView
+              android:id="@+id/fr_platform_checkbox_image_view"
+              android:layout_width="25dp"
+              android:layout_height="25dp"
+              android:src="@drawable/fr_platform_checkbox_selector"
+              />
+            
+        </LinearLayout>
+        
+        <LinearLayout
+          android:id="@+id/fr_platform_text_layout"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_toLeftOf="@id/fr_platform_checkbox_layout"
+          android:gravity="center_vertical"
+          android:orientation="vertical">
+            
+            <TextView
+              android:id="@+id/fr_platform_content_text_view"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:ellipsize="end"
+              android:gravity="center_vertical"
+              android:singleLine="true"
+              android:textColor="#3a454e"
+              android:textSize="13sp" />
+            
+            <TextView
+              android:id="@+id/fr_platform_hint_text_view"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text=""
+              android:textColor="#007aff"
+              android:textSize="15sp" />
+            
+        </LinearLayout>
+        
+    </RelativeLayout>
+    
+</LinearLayout>

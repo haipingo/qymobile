@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="@dimen/fr_top_action_bar_height"
+  android:background="@android:color/white">
+        <LinearLayout
+          android:id="@+id/fr_top_action_bar_back_container"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentStart="true"
+          android:gravity="center_vertical"
+          android:orientation="horizontal">
+            <ImageView
+              android:id="@+id/fr_top_action_bar_back_btn"
+              android:layout_width="25dp"
+              android:layout_height="match_parent"
+              android:paddingTop="@dimen/fr_base_padding_label_top_button"
+              android:paddingBottom="@dimen/fr_base_padding_label_top_button"
+              android:paddingStart="5dp"
+              android:paddingEnd="5dp"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:src="@drawable/fr_icon_leftblue_normal" />
+            <TextView
+              android:id="@+id/fr_top_action_bar_back_text"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:text="@string/fr_return"
+              android:textColor="@color/fr_base_text_color_blue"
+              android:textSize="17sp" />
+            <TextView
+              android:id="@+id/fr_top_action_bar_back_close"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent"
+              android:paddingTop="0dp"
+              android:paddingBottom="0dp"
+              android:paddingStart="5dp"
+              android:paddingEnd="0dp"
+              android:paddingLeft="5dp"
+              android:paddingRight="0dp"
+              android:gravity="center_vertical"
+              android:text="@string/fr_close"
+              android:textColor="@color/fr_base_text_color_blue"
+              android:textSize="17sp" />
+        </LinearLayout>
+        <TextView
+          android:id="@+id/fr_top_action_bar_title"
+          style="@style/IFTopActionViewBar_TitleView"
+          android:layout_centerInParent="true"
+          tools:text="标题" />
+        <LinearLayout
+          android:id="@+id/fr_top_action_bar_right"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentEnd="true"
+          android:layout_alignParentRight="true"
+          android:gravity="center_vertical"
+          android:orientation="horizontal">
+
+        </LinearLayout>
+
+    <View
+      android:id="@+id/fr_top_action_bar_divider"
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:layout_alignParentBottom="true"
+      android:background="@color/fr_platform_top_action_bar_divider_bg" />
+</RelativeLayout>

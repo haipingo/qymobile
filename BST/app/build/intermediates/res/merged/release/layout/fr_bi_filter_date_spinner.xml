@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:background="@color/fr_base_white"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content">
+
+    <include layout="@layout/fr_bi_filter_date_spinner_title"/>
+
+    <View
+      android:layout_width="match_parent"
+      android:layout_height="1dp"
+      android:background="@color/fr_bi_setting_item_div"/>
+
+    <include layout="@layout/fr_bi_filter_date_picker_editor"/>
+
+</LinearLayout>

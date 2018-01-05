@@ -1,0 +1,602 @@
+.contentDIV {
+    overflow: hidden;
+    position: relative;
+    margin: 10px auto;
+    border: 1px solid rgb(149, 149, 149);
+    background-color: rgb(255, 255, 255);
+}
+
+.page-block {
+    float: left;
+}
+
+.x-table {
+    overflow: hidden;
+    table-layout: fixed;
+    border-collapse: collapse;
+    *word-break: break-all;
+    *overflow: visible
+}
+
+.x-table-wrapper {
+
+}
+
+.fx {
+    overflow: hidden;
+}
+
+.frozen-row {
+    border-bottom: 0px solid transparent;
+    overflow: hidden;
+}
+
+.frozen-column {
+    border-right: 0px solid transparent;
+    overflow: hidden;
+}
+
+.frozen-north {
+}
+
+.frozen-west {
+}
+
+.frozen-center {
+}
+.fx table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    border-spacing: 0;
+}
+
+.wrap {
+    overflow: auto;
+}
+
+.nw {
+    white-space: nowrap;
+    *white-space: pre;
+}
+
+.bw {
+    word-wrap: break-word;
+}
+
+.fh {
+    overflow: hidden;
+    padding: 0px 0px 0px 0px;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 9pt;
+    font-family: SimSun;
+}
+
+.fh-nopadding {
+    overflow: hidden;
+    padding: 0px 0px 0px 0px;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 12px;
+    font-family: SimSun;
+}
+
+.f8-0 {
+    font-size: 8pt
+}
+
+.f9-0 {
+    font-size: 9pt
+}
+
+.f10-0 {
+    font-size: 10pt
+}
+
+.f11-0 {
+    font-size: 11pt
+}
+
+.f12-0 {
+    font-size: 12pt
+}
+
+.f13-0 {
+    font-size: 13pt
+}
+
+.f14-0 {
+    font-size: 14pt
+}
+
+.f15-0 {
+    font-size: 15pt
+}
+
+.f16-0 {
+    font-size: 16pt
+}
+
+.f17-0 {
+    font-size: 17pt
+}
+
+.f18-0 {
+    font-size: 18pt
+}
+
+.f19-0 {
+    font-size: 19pt
+}
+
+.f20-0 {
+    font-size: 20pt
+}
+
+.f21-0 {
+    font-size: 21pt
+}
+
+.f22-0 {
+    font-size: 22pt
+}
+
+.f23-0 {
+    font-size: 23pt
+}
+
+.f24-0 {
+    font-size: 24pt
+}
+
+.f25-0 {
+    font-size: 25pt
+}
+
+.f26-0 {
+    font-size: 26pt
+}
+
+.f8-5 {
+    font-size: 8.5pt
+}
+
+.f9-5 {
+    font-size: 9.5pt
+}
+
+.f10-5 {
+    font-size: 10.5pt
+}
+
+.f11-5 {
+    font-size: 11.5pt
+}
+
+.f12-5 {
+    font-size: 12.5pt
+}
+
+.f13-5 {
+    font-size: 13.5pt
+}
+
+.f14-5 {
+    font-size: 14.5pt
+}
+
+.f15-5 {
+    font-size: 15.5pt
+}
+
+.f16-5 {
+    font-size: 16.5pt
+}
+
+.f17-5 {
+    font-size: 17.5pt
+}
+
+.f18-5 {
+    font-size: 18.5pt
+}
+
+.f19-5 {
+    font-size: 19.5pt
+}
+
+.f20-5 {
+    font-size: 20.5pt
+}
+
+.f21-5 {
+    font-size: 21.5pt
+}
+
+.f22-5 {
+    font-size: 22.5pt
+}
+
+.f23-5 {
+    font-size: 23.5pt
+}
+
+.f24-5 {
+    font-size: 24.5pt
+}
+
+.f25-5 {
+    font-size: 25.5pt
+}
+
+.f26-5 {
+    font-size: 26.5pt
+}
+
+.fnab {
+    font-family: Arial Black;
+}
+
+.fnbs {
+    font-family: Basic Sans SF;
+}
+
+.fnba {
+    font-family: Book Antiqua;
+}
+
+.fnci {
+    font-family: Calibri;
+}
+
+.fncs {
+    font-family: Comic Sans MS;
+}
+
+.fncn {
+    font-family: Courier New;
+}
+
+.fnes {
+    font-family: Elementary SF;
+}
+
+.fngd {
+    font-family: Garamond;
+}
+
+.fnga {
+    font-family: Georgia;
+}
+
+.fnlg {
+    font-family: Letter Gothic;
+}
+
+.fnlc {
+    font-family: Lucida Console;
+}
+
+.fnmd {
+    font-family: Marigold;
+}
+
+.fnms {
+    font-family: MS Sans Serif;
+}
+
+.fnmg {
+    font-family: MS Gothic;
+}
+
+.fnmpg {
+    font-family: MS PGothic;
+}
+
+.fnmm {
+    font-family: MS Mincho;
+}
+
+.fnmpm {
+    font-family: MS P Mincho;
+}
+
+.fnml {
+    font-family: MingLiU;
+}
+
+.fnsh {
+    font-family: SimHei;
+}
+
+.fnsm {
+    font-family: System;
+}
+
+.fnta {
+    font-family: Tahoma;
+}
+
+.fntn {
+    font-family: Times New Roman;
+}
+
+.fntms {
+    font-family: Trebuchet MS;
+}
+
+.fnva {
+    font-family: Verdana;
+}
+
+.fnss {
+    font-family: SimSun;
+}
+
+.fnar {
+    font-family: Arial;
+}
+
+.fnyh {
+    font-family: Microsoft YaHei;
+}
+
+.fnkt {
+    font-family: KaiTi;
+}
+
+.fwb {
+    font-weight: bold;
+}
+
+.fsi {
+    font-style: italic;
+}
+
+.tdu {
+    text-decoration: underline;
+}
+
+.tdst {
+    text-decoration: line-through;
+}
+
+.tdstu {
+    text-decoration: line-through underline;
+}
+
+.fvsc {
+    font-variant: small-caps;
+}
+
+.super {
+    vertical-align: 100% !important;
+}
+
+.super sup {
+    vertical-align: 100%
+}
+
+
+.suber {
+    vertical-align:sub;
+}
+
+.suber sub {
+    vertical-align: -120%;
+    *vertical-align: sub;
+}
+
+.shadow {
+    text-shadow: 1px 1px 2px black;
+}
+
+.tac {
+    text-align: center;
+}
+
+.tar {
+    text-align: right;
+}
+
+.vab {
+    vertical-align: bottom;
+}
+
+.vat {
+    vertical-align: top;
+}
+
+.pl0 {
+    padding-left: 0
+}
+
+.pr0 {
+    padding-right: 0
+}
+
+.pl1 {
+    padding-left: 1px
+}
+
+.pr1 {
+    padding-right: 1px
+}
+
+.pl2 {
+    padding-left: 2px;
+    *padding-left: 0
+}
+
+.pr2 {
+    padding-right: 2px;
+    *padding-right: 0
+}
+
+.b0 {
+    border: 0px;
+}
+
+.b1 {
+    border: 1px solid #000;
+}
+
+.bt0 {
+    border-top: 0px;
+}
+
+.bb0 {
+    border-bottom: 0px;
+}
+
+.bl0 {
+    border-left: 0px;
+}
+
+.br0 {
+    border-right: 0px;
+}
+
+.bt1 {
+    border-top: 1px solid #000;
+}
+
+.bb1 {
+    border-bottom: 1px solid #000;
+}
+
+.bl1 {
+    border-left: 1px solid #000;
+}
+
+.br1 {
+    border-right: 1px solid #000;
+}
+
+.btcb {
+    border-top-color: #000
+}
+
+.bbcb {
+    border-bottom-color: #000
+}
+
+.blcb {
+    border-left-color: #000
+}
+
+.brcb {
+    border-right-color: #000
+}
+
+.btw1 {
+    border-top-width: 1px
+}
+
+.bbw1 {
+    border-bottom-width: 1px
+}
+
+.blw1 {
+    border-left-width: 1px
+}
+
+.brw1 {
+    border-right-width: 1px
+}
+
+.btw2 {
+    border-top-width: 2px
+}
+
+.bbw2 {
+    border-bottom-width: 2px
+}
+
+.blw2 {
+    border-left-width: 2px
+}
+
+.brw2 {
+    border-right-width: 2px
+}
+
+.btw3 {
+    border-top-width: 3px
+}
+
+.bbw3 {
+    border-bottom-width: 3px
+}
+
+.blw3 {
+    border-left-width: 3px
+}
+
+.brw3 {
+    border-right-width: 3px
+}
+
+.btss {
+    border-top-style: solid
+}
+
+.bbss {
+    border-bottom-style: solid
+}
+
+.blss {
+    border-left-style: solid
+}
+
+.brss {
+    border-right-style: solid
+}
+
+.btsd {
+    border-top-style: double
+}
+
+.bbsd {
+    border-bottom-style: double
+}
+
+.blsd {
+    border-left-style: double
+}
+
+.brsd {
+    border-right-style: double
+}
+
+.btsda {
+    border-top-style: dashed
+}
+
+.bbsda {
+    border-bottom-style: dashed
+}
+
+.blsda {
+    border-left-style: dashed
+}
+
+.brsda {
+    border-right-style: dashed
+}
+
+.btsdo {
+    border-top-style: dotted
+}
+
+.bbsdo {
+    border-bottom-style: dotted
+}
+
+.blsdo {
+    border-left-style: dotted
+}
+
+.brsdo {
+    border-right-style: dotted
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html style="width:100%; height:100%;" >
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <title></title>
+    <script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/mobile/js/appChart.js"></script>
+    <script type="text/javascript" src="android_servletURL?op=emb&resource=mobile.js"></script>
+    <script type="text/javascript" src="android_servletURL?op=emb&resource=map.js&__pre__=true"></script>
+    <script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/third/leaflet.js"></script>
+    <script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/web/core/js/VanChartWrapper.js"></script>
+
+    <script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/third/es5-sham.js"></script>
+    <script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/third/raphael.js"></script>
+
+    <link href="android_servletURL?op=resource&resource=/com/fr/bi/web/css/base/third/leaflet.css" rel="stylesheet">
+
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/mobile/mobile.jQuery.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/third/d3.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/third/vancharts-all.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/web/core/js/VanChartWrapper.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/mobile/js/appChart.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/core/underscore.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/base/base.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/base/proto/number.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/base/proto/array.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/base/proto/date.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/data/data.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/data/utils.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/data/constant/biconst.js"></script>-->
+    <!--<script type="text/javascript" src="android_servletURL?op=resource&resource=/com/fr/bi/web/js/data/constant/enums.js"></script>-->
+
+    <script type="text/javascript">
+
+
+
+        FR.serverURL = document.location.href;
+        FR.servletURL = "";
+
+
+        window.onerror = function (err) {
+            //alert('window.onerror: ' + err);
+        };
+
+        window.onresize = function (e){
+            if(resize){
+              resize();
+            }
+        };
+
+    </script>
+
+
+</head>
+<body style="width:100%; height:100%; margin:0" onload="javascript:MyContent.loadOptions()">
+
+<div id='container' style="position:absolute; width:98%; height:98%; top:0;bottom:0;left:0;right:0;margin: auto;"></div>
+
+<script type="text/javascript">
+
+    var vanCharts;
+
+    function show(options,widget) {
+        var chartAttr = Data.Utils.convertDataToChartData(options, widget);
+        vanCharts = VanCharts.init(document.getElementById('container'));
+        chartAttr.plotOptions.click = function(event){
+            changeJSON(this);
+        };
+        vanCharts.setOptions(chartAttr);
+        preventParentTouchInZoomBar();
+    }
+
+    function preventParentTouchInZoomBar(){
+        if(vanCharts && vanCharts.charts && vanCharts.charts.length > 0){
+            var zoom = vanCharts.charts[0].getComponent("zoom");
+            if(!zoom || !zoom.zoomBarGroup){
+               return;
+            }
+            var ele = zoom.zoomBarGroup.rawElement;
+            ele.addEventListener("touchstart", function(ev) {
+                MyContent.preventParentTouch();   // 通知WebView阻止祖先对其Touch事件的拦截
+            });
+
+        }
+    }
+
+    function changeJSON(point) {
+        if(point) {
+            MyContent.doHyper(JSON.stringify({seriesName:point.options.seriesName,
+            x:point.options.x,
+            xValue:point.options.xValue,
+            z:point.options.z,
+            zValue:point.options.zValue,
+            value:point.options.value,
+            targetIds:point.options.targetIds}));
+        }
+    }
+
+    function resize() {
+        if(vanCharts) {
+            vanCharts.resize();
+        }
+    }
+
+    function refreshData(options, widget) {
+        if (vanCharts) {
+            var chartAttr = Data.Utils.convertDataToChartData(options, widget);
+            chartAttr.plotOptions.click = function (event) {
+                changeJSON(this);
+            };
+            vanCharts.setData(chartAttr);
+        }
+    }
+
+</script>
+</body>
+</html>

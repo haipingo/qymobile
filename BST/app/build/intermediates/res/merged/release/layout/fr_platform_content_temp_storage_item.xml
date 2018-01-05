@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/fr_platform_content_container"
+  android:layout_width="match_parent"
+  android:layout_height="50dp"
+  android:background="#55ffffff"
+  android:orientation="horizontal">
+    
+    <FrameLayout
+      android:id="@+id/fr_platform_checkbox_layout"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:paddingLeft="15dp"
+      android:paddingRight="9dp">
+        <ImageView
+          android:id="@+id/fr_platform_checkbox_image_view"
+          android:layout_width="18dp"
+          android:layout_height="18dp"
+          android:layout_gravity="center_vertical"
+          android:visibility="visible"
+          android:src="@drawable/fr_platform_checkbox_selector"
+          />
+    </FrameLayout>
+    
+    <ImageView
+      android:id="@+id/fr_platform_image_view"
+      android:layout_width="60dp"
+      android:layout_height="match_parent"
+      android:layout_marginTop="4dp"
+      android:layout_marginBottom="4dp"
+      android:layout_marginRight="15dp"
+      android:scaleType="fitXY" />
+    
+    <RelativeLayout
+      android:id="@+id/fr_platform_right_layout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+        
+        <View
+          android:id="@+id/fr_platform_line"
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:layout_alignParentBottom="true"
+          android:background="#ffcccccc" />
+        
+        <TextView
+          android:id="@+id/fr_platform_hint_text_view"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="15dp"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:textSize="15sp"
+          android:visibility="gone" />
+        
+        <TextView
+          android:id="@+id/fr_platform_content_text_view"
+          android:layout_width="200dp"
+          android:layout_height="match_parent"
+          android:layout_above="@id/fr_platform_line"
+          android:layout_toLeftOf="@id/fr_platform_hint_text_view"
+          android:paddingRight="15dp"
+          android:ellipsize="end"
+          android:gravity="center_vertical"
+          android:lines="1"
+          android:textColor="#3a454e"
+          android:textSize="17sp" />
+        
+        <ImageView
+          android:id="@+id/fr_platform_red_dot_view"
+          android:layout_width="10dp"
+          android:layout_height="10dp"
+          android:layout_alignParentRight="true"
+          android:layout_centerVertical="true"
+          android:src="@drawable/fr_platform_update_decoration"
+          android:visibility="invisible" />
+    
+        <com.fr.android.platform.settings.offline.IFNoticeIcon
+          android:id="@+id/fr_platform_noticeIcon"
+          android:layout_width="50dp"
+          android:layout_height="match_parent"
+          android:layout_alignParentRight="true"
+          android:visibility="invisible"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/fr_bi_setting_section_head"
+  android:layout_width="match_parent"
+  android:layout_height="@dimen/fr_bi_setting_item_height"
+  android:paddingLeft="@dimen/fr_bi_setting_item_head_padding"
+  android:gravity="center_vertical"
+  android:orientation="vertical"/>
+
+
+

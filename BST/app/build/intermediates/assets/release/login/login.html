@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html class="ui-page-login">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	<title></title>
+	<link href="css/mui.min.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<style>
+		.area {
+			margin: 20px auto 0px auto;
+		}
+		.mui-input-group {
+			margin-top: 10px;
+		}
+
+
+		#login-form label{
+			width: 22%;
+		}
+		.mui-input-row label~input,
+		.mui-input-row label~select,
+		.mui-input-row label~textarea {
+			width: 78%;
+		}
+		.mui-checkbox input[type=checkbox],
+		.mui-radio input[type=radio] {
+			top: 6px;
+		}
+		.mui-content-padded {
+			margin-top: 25px;
+		}
+		.mui-btn {
+			padding: 10px;
+		}
+		.link-area {
+			display: block;
+			margin-top: 25px;
+			text-align: center;
+		}
+		.spliter {
+			color: #bbb;
+			padding: 0px 8px;
+		}
+		.oauth-area {
+			position: absolute;
+			bottom: 20px;
+			left: 0px;
+			text-align: center;
+			width: 100%;
+			padding: 0px;
+			margin: 0px;
+		}
+		.oauth-area .oauth-btn {
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			background-size: 30px 30px;
+			background-position: center center;
+			background-repeat: no-repeat;
+			margin: 0px 20px;
+			/*-webkit-filter: grayscale(100%); */
+
+			border: solid 1px #ddd;
+			border-radius: 25px;
+		}
+		.oauth-area .oauth-btn:active {
+			border: solid 1px #aaa;
+		}
+	</style>
+
+</head>
+
+<body>
+<header class="mui-bar mui-bar-nav">
+	<img id="backspace" style="float: left;margin-left: 10px;width: 20px;height: 25px;margin-top: 5px;" onclick="back()" src="images/icon_leftblue_normal.png" />
+	<h1 class="mui-title" id='serverName'>demo</h1>
+	<img id="addServer" style="float: right;margin-left: 10px;width: 25px;height: 25px;margin-top: 5px;" onclick="edit()" src="images/iocn_edit_blue.png" />
+</header>
+<div class="mui-content">
+	<form id='login-form' class="mui-input-group">
+		<div class="mui-input-row">
+			<label>账号</label>
+			<input id='account' type="text" class="mui-input-clear mui-input" placeholder="请输入账号">
+		</div>
+		<div class="mui-input-row">
+			<label>密码</label>
+			<input id='password' type="password" class="mui-input-clear mui-input" placeholder="请输入密码">
+		</div>
+	</form>
+	<div class="mui-card">
+		<form class="mui-input-group">
+			<div class="mui-input-row mui-checkbox mui-left">
+				<label>自动登录</label>
+				<input id="autoLoginCheckbox" type="checkbox" value="Item 2" type="checkbox" onclick="autoLogin()">
+			</div>
+			<div class="mui-input-row mui-checkbox mui-left">
+				<label>记住密码</label>
+				<input id="rememberPasswordCheckbox" name="checkbox" value="Item 2" type="checkbox"  onclick="savePassword()">
+			</div>
+		</form>
+	</div>
+	<div class="mui-content-padded">
+		<button id='login' class="mui-btn mui-btn-block mui-btn-primary" onclick="login()">登录</button>
+		<button id='delete' class="mui-btn mui-btn-block mui-btn-primary" onclick="deleteSelectedServer()">删除</button>
+	</div>
+</div>
+<div class="mui-content-padded oauth-area">
+
+</div>
+</div>
+<script src="js/mui.min.js"></script>
+<script src="js/mui.enterfocus.js"></script>
+<script src="js/app.js"></script>
+<script>
+	var serverPosition;
+	var savePasswordOrNot;
+	var autoLoginOrNot;
+	var username;
+	var password;
+	var constantsServerNow;
+	var passwordConfig;
+	var serverMsg;
+	function getUserInfo(userInfo){
+		var obj = eval("(" + userInfo + ")");
+		password = obj["password"];
+		username = obj["username"];
+		constantsServerNow = obj["constantsServerNow"];
+		passwordConfig = obj["passwordConfig"];
+		serverMsg = obj["serverMsg"];
+		serverPosition = obj["position"];
+		autoLoginOrNot = obj["autoLogin"];
+		savePasswordOrNot = obj["savePassword"];
+
+		var serverName = document.getElementById("serverName");
+		var accountText = document.getElementById("account");
+		var passwordText = document.getElementById("password");
+		var rememberPasswordCheckbox =  document.getElementById("rememberPasswordCheckbox");
+		var autoLoginCheckbox =  document.getElementById("autoLoginCheckbox");
+
+
+		if(typeof(serverMsg)=="undefined" ){
+			serverName.innerHTML = "demo";
+		}else{
+			serverName.innerHTML = serverMsg;
+		}
+
+		if(typeof(password)=="undefined" ){
+			passwordText.value = "";
+		}else{
+			passwordText.value = password;
+		}
+
+		if(typeof(username)=="undefined" ){
+			accountText.value = "";
+		}else{
+			accountText.value = username;
+		}
+
+
+
+		if(!rememberPasswordCheckbox.checked && !constantsServerNow){
+			passwordText.value = "";
+		}
+
+		if((passwordConfig || constantsServerNow) && typeof(password)!="undefined" ){
+			passwordText.value = password;
+		}
+
+		if(constantsServerNow){
+			accountText.setAttribute("readOnly",'true');
+			passwordText.setAttribute("readOnly",'true');
+			rememberPasswordCheckbox.checked = true;
+		}else{
+			rememberPasswordCheckbox.checked = savePasswordOrNot;
+			autoLoginCheckbox.checked = autoLoginOrNot;
+		}
+
+
+
+		if(constantsServerNow){
+			var deleteIcon = document.getElementById("delete");
+			deleteIcon.style.display = "none";
+			var addServer = document.getElementById("addServer");
+			addServer.style.display = "none";
+		}
+	}
+
+	function setUserNameEmpty(){
+		var account = document.getElementById("account");
+		account.value = "";
+	}
+
+	function setPasswordEmpty(){
+		var password = document.getElementById("password");
+		password.value = "";
+	}
+
+	function deleteSelectedServer(){
+		javascript:JavaScriptInterface.deleteItem(serverPosition);
+	}
+
+
+	function autoLogin(){
+		var rememberPasswordCheckbox =  document.getElementById("rememberPasswordCheckbox");
+		var autoLoginCheckbox =  document.getElementById("autoLoginCheckbox");
+		if(autoLoginCheckbox.checked){
+			rememberPasswordCheckbox.checked = true;
+			javascript:JavaScriptInterface.functionMonitorAutoLogin();
+		}
+	}
+	function  savePassword(){
+		var rememberPasswordCheckbox =  document.getElementById("rememberPasswordCheckbox");
+		var autoLoginCheckbox =  document.getElementById("autoLoginCheckbox");
+		if(!rememberPasswordCheckbox.checked){
+			autoLoginCheckbox.checked = false;
+		}else{
+			javascript:JavaScriptInterface.functionMonitorSavePassword();
+		}
+	}
+
+	function login(){
+		var usernameText = document.getElementById("account");
+		var passwordText = document.getElementById("password");
+		var rememberPasswordCheckbox =  document.getElementById("rememberPasswordCheckbox");
+		var autoLoginCheckbox =  document.getElementById("autoLoginCheckbox");
+		var usernameStr = usernameText.value.trim();
+		var passwordStr = passwordText.value.trim();
+		javascript:JavaScriptInterface.login(usernameStr,passwordStr,autoLoginCheckbox.checked,rememberPasswordCheckbox.checked);
+	}
+
+	function back(){
+		javascript:JavaScriptInterface.backToServerList();
+	}
+
+	function edit(){
+		javascript:JavaScriptInterface.edit();
+	}
+</script>
+</body>
+
+</html>

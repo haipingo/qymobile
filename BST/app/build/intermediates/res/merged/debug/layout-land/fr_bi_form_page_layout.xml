@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical">
+    <com.fr.android.platform.ui.IFTopActionViewBar
+      android:id="@+id/fr_top_action_bar"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+    </com.fr.android.platform.ui.IFTopActionViewBar>
+
+    <LinearLayout
+      android:id="@+id/fr_bi_form_container"
+      android:orientation="horizontal"
+      android:background="@android:color/transparent"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="1">
+        <com.fr.android.bi.ui.IFIndicator
+          android:id="@+id/fr_bi_form_indicator"
+          android:orientation="vertical"
+          android:background="@color/fr_bi_form_indicator_bg"
+          android:gravity="start|center_vertical"
+          android:layout_width="@dimen/fr_bi_form_indicator_height"
+          android:layout_height="match_parent"/>
+        <com.fr.android.bi.form.SwipeRefreshLayoutCanDisallowIntercept
+          android:id="@+id/fr_bi_form_land_swipe"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+            <com.fr.android.bi.ui.VerticalViewPager
+              android:id="@+id/fr_bi_form_vertical_view_pager"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+            </com.fr.android.bi.ui.VerticalViewPager>
+        </com.fr.android.bi.form.SwipeRefreshLayoutCanDisallowIntercept>
+
+
+    </LinearLayout>
+    <com.fr.android.bi.ui.IFReportToolbar
+      android:id="@+id/fr_bottom_bar"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/fr_bi_form_bottom_bar_height">
+
+    </com.fr.android.bi.ui.IFReportToolbar>
+</LinearLayout>

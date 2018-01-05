@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:padding="5dp">
+
+    <TextView
+      android:id="@+id/fr_bi_filter_date_spinner_cancel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentLeft="true"
+      android:layout_centerVertical="true"
+      android:textColor="@color/fr_base_blue"
+      android:textSize="17sp"
+      android:text="@string/fr_cancel"/>
+
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:textSize="17sp"
+      android:text="@string/fr_bi_choose_date"/>
+
+    <TextView
+      android:id="@+id/fr_bi_filter_date_spinner_confirm"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_centerVertical="true"
+      android:textColor="@color/fr_base_blue"
+      android:textSize="17sp"
+      android:text="@string/fr_confirm_sure"/>
+
+</RelativeLayout>

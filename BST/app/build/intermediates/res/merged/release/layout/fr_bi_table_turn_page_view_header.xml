@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@id/fr_fl_inner"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/header_footer_top_bottom_padding"
+        android:paddingLeft="@dimen/header_footer_left_right_padding"
+        android:paddingRight="@dimen/header_footer_left_right_padding"
+        android:paddingTop="@dimen/header_footer_top_bottom_padding"
+        >
+        <TextView
+            android:id="@id/fr_pull_to_refresh_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:maxEms="1"
+            android:text="@string/fr_load_next_horizontal_page"
+            android:textColor="#02ccff"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+</merge>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16.0dip" >
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_bar_bg_active"
+        android:inputType="text"
+        android:maxLength="128"
+        android:padding="4.0dip"
+        android:singleLine="false"
+        android:textColor="#ff353535"
+        android:textColorHint="#ff484c4c"
+        android:textCursorDrawable="@null"
+        android:textSize="16.0dip" />
+
+    <TextView
+        android:id="@+id/tips_tv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8.0dip"
+        android:textColor="#ff999999"
+        android:textSize="13.0dip" />
+
+</LinearLayout>

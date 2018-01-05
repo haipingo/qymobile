@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\SangforSDK.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9a36c61a8ac350177cca3c746569053b8a9a0dc8">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\SangforSDK_b6edeb775b4aeb7016877cbd1b12434409a53b63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\BASE64Encoder.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dac80ee722e8fcaf2695bb1cede92a77bdaa17c3">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\BASE64Encoder_6b664719d2bc6f70f8c50340c85d70de0b4731b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\AMap_Location_V2.5.0_20160526.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e40dff75c4b37eca9eea22c450369b0e09518e1d">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Location_V2.5.0_20160526_4bb7122ce454cc985c7531e124cf90172e94b2e2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\zbardecoder.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4553499249a43cac44faec812aa7003adec334e2">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\zbardecoder_710ee55777443ffa619b4dd25976ca1371a5f711\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\pushservice-5.5.0.50.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d447ee5b37c2109c0b5565cc79766901ff551a27">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\pushservice-5.5.0.50_103badf1239d4e19a1aad6009bfd11b60c56c4c2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\Xg_sdk_v3.1_20170417_0946.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dadedb074385555924c5cb7aa42e69ed270aa3cd">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\Xg_sdk_v3.1_20170417_0946_6095c495a852ccfe21162d9ed41a8353cac42ffd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\BugReportUtils.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47b6322afc097a3a53a1c680ecabb97ebce049bf">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\BugReportUtils_ee34d0f0273cdd9902b58be60a4bb039acc77635\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\mid-core-sdk-3.7.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2d3570cc6c1a0e219ddb8e626273a7cb80cd030b">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\mid-core-sdk-3.7.2_1b43e8024a3cbde6d6b61058fba6db0cfc7c5ab9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\BaiduLBS_Android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0ffdb9b3a3a8a38edbc201f5d9fb49d03bfd0578">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\BaiduLBS_Android_e5175a025a845c1a716bd328316db65c66103ff3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\wup-1.0.0-SNAPSHOT.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0845068801a0b9a3a144b7cf57cb650b3d467e5">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\wup-1.0.0-SNAPSHOT_2690253a07dc28d31795bddf6451e984d7ace18a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\org.apache.http.legacy.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="017030d11901291abf8f83a812984276b643ea0f">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\org.apache.http.legacy_71f0d2c20cdeb8f68b644cf9a178855e4092db72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_516dabf8bb5c7f3678756b4f73621926cd24af83\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\spring-android-core-1.0.1.RELEASE.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e68f0e8e4b636ee30c4de58953be38d9b72a5e3b">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\spring-android-core-1.0.1.RELEASE_e04fe4f05a89e4d6267d6559e7348f6219716c53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\js.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0859b8957d66fa25e17c889749c8e54e14bf81fb">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\js_92d7b3d0b9584d27d44dcec8193c25349777a88c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\locSDK_6.13.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cdb37444b41b42e1ce5a8a27e5d3c22e1c57479">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\locSDK_6.13_c8df16d5f14482ae50ee76e905553da46c992012\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\android-async-http-1.4.6-fr.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="89e246206020095fe9b56b062be27764de6d71ab">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.6-fr_ae013afdff6f3d3069e70d7e5b0b13dd1bd985ea\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\libs\jg_filter_sdk_1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ebfc3cde0309ff27e9568757784eefefc71407a2">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\2\jg_filter_sdk_1.1_45762d3e264502718edbca004b8a9b8fa321ddf8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\androidStudioSpace\BST\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aacf781110e67746873545ca1bc695340df9e60b">
+        <dex dex="D:\androidStudioSpace\BST\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_209e1f732b821e64b99bcc9560608f47e340c51c\classes.dex" />
+    </item>
+
+</items>

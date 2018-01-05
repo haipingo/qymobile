@@ -1,0 +1,406 @@
+[
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_setting_section_head.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_setting_section_head.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_tree_label_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_tree_label_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_attendance_info.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\activity_attendance_info.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_platform_collection_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_platform_collection_item_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_custom_date_picker.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\36f3170f8b4cb54f966c788c9609becd2c4a96e1\\output\\res\\layout\\fr_custom_date_picker.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ccp_alert_input.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\ccp_alert_input.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_device_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_device_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_platform_contents_folder_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_platform_contents_folder_item_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_form_view_pager_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_form_view_pager_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main2.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_platform_main_page.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_platform_main_page.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_form_title_bar_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_form_title_bar_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_filter_text_label_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_filter_text_label_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_complex_table_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_complex_table_view.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_platform_content_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_platform_content_item_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activty_panel.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\activty_panel.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_server.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_server.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_platform_content_temp_storage_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_platform_content_temp_storage_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_dialog_list_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_dialog_list_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_pull_to_refresh_header_vertical.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3167045eef772e99638db5fd1890a3167517ebe1\\output\\res\\layout\\fr_pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_bar.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\title_bar.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_device_list_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_device_list_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_login_h5.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\36f3170f8b4cb54f966c788c9609becd2c4a96e1\\output\\res\\layout\\fr_login_h5.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_table_drill_dialog_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_table_drill_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_filter_date_picker_editor_pad.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_filter_date_picker_editor_pad.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_personal_centor.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\activity_personal_centor.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_filter_single_value_seek_bar_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_filter_single_value_seek_bar_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_platform_temp_storage_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_platform_temp_storage_item_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_platform_content_second_menu_title.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_platform_content_second_menu_title.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_form_layout_pad.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_form_layout_pad.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_bar2.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\title_bar2.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_platform_left_folder_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_platform_left_folder_item_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_welcome.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_welcome.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_base_widget_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_base_widget_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_attendance.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\activity_select_attendance.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_table_turn_page_view_header.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_table_turn_page_view_header.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_filter_text_input_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_filter_text_input_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_filter_date_spinner_title.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_filter_date_spinner_title.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\litte_gray_radio_shape.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\litte_gray_radio_shape.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_att_list_item.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\select_att_list_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_person_attendance.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\activity_person_attendance.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\show_selector_photo_dialog.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\show_selector_photo_dialog.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_attaddface.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\activity_attaddface.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_platform_contents_folder_title_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_platform_contents_folder_title_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_filter_date_spinner.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_filter_date_spinner.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_number_keyboard_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_number_keyboard_view.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_platform_content_item_pad_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_platform_content_item_pad_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_guidepage.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_guidepage.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_dialog_list_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_dialog_list_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_login_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_login_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_setting_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_setting_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\att_list_item.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\att_list_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_platform_top_action_bar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_platform_top_action_bar.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_pull_to_refresh_header_horizontal.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3167045eef772e99638db5fd1890a3167517ebe1\\output\\res\\layout\\fr_pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\person_att_list_item.xml",
+        "source": "D:\\androidStudioSpace\\BST\\app\\src\\main\\res\\layout\\person_att_list_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_filter_range_seek_bar_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_filter_range_seek_bar_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_error_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_error_view.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_update.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_update.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_text_widget_content.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_text_widget_content.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_filter_date_picker_editor.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_filter_date_picker_editor.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_bi_form_page_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\84f57e914727f0af7d8646cac436e05b1ba7aa2f\\output\\res\\layout\\fr_bi_form_page_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_picture_select.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\36f3170f8b4cb54f966c788c9609becd2c4a96e1\\output\\res\\layout\\fr_picture_select.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fr_platform_content_temp_storage_pad_item.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\4984b38269a13c1154cd0260569d1fa3aec128c7\\output\\res\\layout\\fr_platform_content_temp_storage_pad_item.xml"
+    },
+    {
+        "merged": "D:\\androidStudioSpace\\BST\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\e39e0036403573d4dd840db178eae146275cd6b8\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    }
+]

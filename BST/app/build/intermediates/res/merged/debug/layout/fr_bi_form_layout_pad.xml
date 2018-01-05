@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+    <com.fr.android.platform.form.IFToolBar4Pad
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/fr_bi_form_pad_toolbar">
+
+    </com.fr.android.platform.form.IFToolBar4Pad>
+    <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/fr_bi_form_pad_draw">
+        <android.support.v4.widget.SwipeRefreshLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/fr_bi_form_pad_swipe">
+            <com.fr.android.ui.layout.core.IFRelativeLayout4Pad
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/fr_bi_form_bg"
+              android:id="@+id/fr_bi_form_relative_layout"/>
+        </android.support.v4.widget.SwipeRefreshLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

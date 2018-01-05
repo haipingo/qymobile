@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/fr_body_background"
+              android:orientation="vertical"
+              android:id="@+id/server_layout">
+
+    <View
+        android:id="@+id/pop_window_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp" />
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+                    android:id="@+id/server_relativeLayout">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:text="@string/fr_server_list"
+                android:id="@+id/server_list"
+                android:textColor="#ff000000" android:textSize="18sp"
+                android:layout_centerInParent="true" android:gravity="center"/>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/add_new_server_btn"
+                android:src="@drawable/fr_icon_add_normal"
+                android:layout_marginRight="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                />
+
+    </RelativeLayout>
+    <ListView
+            android:id="@android:id/list"
+            style="@style/list" android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:dividerHeight="0.5dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginRight="9dp"
+            android:divider="#00000000"
+            android:layout_below="@id/server_relativeLayout"
+            android:layout_marginBottom="50dp"
+            />
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="50dp"
+                  android:orientation="horizontal"
+                  android:gravity="center_vertical"
+                  android:id="@+id/fr_vpn_layout"
+                  android:paddingLeft="20dp"
+                  android:layout_alignParentBottom="true">
+        <TextView android:layout_width="wrap_content"
+                     android:layout_height="match_parent"
+                     android:gravity="center_vertical"
+                     android:textColor="#3a454e"
+                     android:text="@string/fr_sangfor_vpn"
+                     android:textSize="16dp"/>
+        <TextView android:layout_width="wrap_content"
+                  android:id="@+id/fr_vpn_status"
+                  android:layout_height="match_parent"
+                  android:gravity="center_vertical"
+                  android:textColor="#999999"
+                  android:textSize="14dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

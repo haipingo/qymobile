@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/fr_bi_table_number_column_container"
+        android:layout_width="@dimen/fr_bi_table_number_col_width"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <com.fr.android.bi.widget.table.view.IFBITableCellView
+            android:id="@+id/fr_bi_table_number_head"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:text="@string/fr_bi_table_number">
+        </com.fr.android.bi.widget.table.view.IFBITableCellView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fr_bi_table_number_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@null"
+            android:requiresFadingEdge="none"
+            android:scrollbars="none"
+            android:overScrollMode="never"
+            app:layoutManager="LinearLayoutManager">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fr_bi_table_number_left_col_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.fr.android.bi.widget.table.view.IFBITableCorner
+            android:id="@+id/fr_bi_table_corner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </com.fr.android.bi.widget.table.view.IFBITableCorner>
+
+        <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+            <android.support.v7.widget.RecyclerView
+              android:id="@+id/fr_bi_table_left_col_list"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:divider="@null"
+              android:requiresFadingEdge="none"
+              android:scrollbars="none"
+              android:overScrollMode="never"
+              app:layoutManager="LinearLayoutManager">
+            </android.support.v7.widget.RecyclerView>
+    
+            <com.fr.android.bi.ui.pinned.PinnedHeaderContainer
+              android:id="@+id/fr_bi_table_pinned_header_container"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+                <com.fr.android.bi.widget.table.view.IFBITableCellView
+                  android:id="@+id/fr_bi_table_pinned_header"
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/fr_bi_table_cell_height"
+                  android:gravity="start">
+                </com.fr.android.bi.widget.table.view.IFBITableCellView>
+            </com.fr.android.bi.ui.pinned.PinnedHeaderContainer>
+        </FrameLayout>
+    </LinearLayout>
+
+    <com.fr.android.bi.widget.table.view.IFBIHorizontalTurnPageScrollView
+        android:id="@+id/fr_bi_table_turn_page_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.fr.android.bi.widget.table.view.IFBIDimensionView
+                android:id="@+id/fr_bi_table_col_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            </com.fr.android.bi.widget.table.view.IFBIDimensionView>
+
+            <FrameLayout
+              android:id="@+id/fr_bi_table_right_col_container"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+                <android.support.v7.widget.RecyclerView
+                  android:id="@+id/fr_bi_table_right_col_list"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:cacheColorHint="@color/transparent"
+                  android:divider="@null"
+                  android:requiresFadingEdge="none"
+                  android:scrollbars="none"
+                  android:overScrollMode="never"
+                  app:layoutManager="LinearLayoutManager">
+                </android.support.v7.widget.RecyclerView>
+                <com.fr.android.bi.ui.pinned.PinnedHeaderContainer
+                  android:id="@+id/fr_bi_table_right_pinned_header_container"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+                     <LinearLayout
+                       android:id="@+id/fr_bi_table_right_pinned_header"
+                       android:layout_width="match_parent"
+                       android:layout_height="@dimen/fr_bi_table_cell_height"
+                       android:orientation="horizontal"/>
+                </com.fr.android.bi.ui.pinned.PinnedHeaderContainer>
+            </FrameLayout>
+        </LinearLayout>
+    </com.fr.android.bi.widget.table.view.IFBIHorizontalTurnPageScrollView>
+
+</LinearLayout>

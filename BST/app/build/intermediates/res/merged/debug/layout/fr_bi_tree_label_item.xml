@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:paddingLeft="10dp"
+  android:paddingRight="10dp"
+  android:orientation="vertical">
+    
+    <TextView
+      android:id="@+id/fr_bi_tree_label_title"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:gravity="center_vertical"
+      android:textColor="#333333"
+      android:textSize="16sp" />
+    
+    <com.fr.android.bi.ui.IFBIFlowLabelLayout
+      android:id="@+id/fr_bi_tree_label_flexbox_layout"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+</LinearLayout>
